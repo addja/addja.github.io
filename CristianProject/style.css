@@ -1,0 +1,46 @@
+#portrait {
+	background: url('http://www.cristianportillo.es/wp-content/uploads/2015/01/cropped-FullSizeRender-37.jpg');
+	background-size: cover;
+	margin-top: -12em;
+	height: 35em;
+}
+
+#navbar {
+	height: 2em;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 3.81em;
+	color: #333333;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 1.313em;
+	color: #333333;
+}
+
+li {
+	display: inline;
+	padding: 0 1em 0 1em;
+	font-family: 'Patua One', cursive;
+	color: #adadad;
+	font-size: 1.05em;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+body {
+	margin: 0;
+}

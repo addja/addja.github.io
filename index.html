@@ -11,7 +11,7 @@
       type="image/png" 
       href="favicon.ico">
   </head>
-  <body>
+  <body onload="updateCanvasSize(); fractalTree(1)" onresize="updateCanvasSize()">
     <div id="container">
       <h1>Daniel Otero Avalle</h1>
       <div id="navbar">
@@ -27,6 +27,7 @@
         <h2>professional computer scientist | amateur thinker and musician</h2>
       </div>
     </div>
+	<canvas id="myCanvas">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="code.js"></script>
   </body>

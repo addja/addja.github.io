@@ -23,7 +23,6 @@ function fractT(i,x,y,l,a) {
 	// i -> iteration
 	// x,y -> starting point
 	// l,a -> length and angle of the branch
-	console.log("Hola");
 	ctx.beginPath();
 	ctx.moveTo(x,y);
 	xx = x+l*Math.cos(a); 	
@@ -39,5 +38,4 @@ function fractalTree() {
 	w = c.width/10; h = c.height/2;
 	fractT(10,0,h,w,0);
 	fractT(10,c.width,h,-w,0);
-
 }

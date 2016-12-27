@@ -30,8 +30,10 @@ function fractT(i,x,y,l,a) {
 	ctx.lineTo(xx,yy);
 	ctx.stroke();
 	if (i == 0) return;
-	window.setTimeout(fractT,800,i-1,xx,yy,l*0.6,a+va);	
-	window.setTimeout(fractT,500,i-1,xx,yy,l*0.6,a-va);	
+	var t1 = Math.floor(Math.random() * 800) + 400
+	var t2 = Math.floor(Math.random() * 800) + 400
+	window.setTimeout(fractT,t1,i-1,xx,yy,l*0.6,a+va);	
+	window.setTimeout(fractT,t2,i-1,xx,yy,l*0.6,a-va);	
 }
 
 function fractalTree() {

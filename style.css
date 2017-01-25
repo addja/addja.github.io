@@ -1,5 +1,4 @@
  #navbar {
-	height: auto;
 	text-align: center;
 }
 
@@ -39,22 +38,21 @@ h2 {
 	color: #333333;
 }
  
-li {
-	padding: 0 1em 0 1em;
-	margin: 1em, 1em, 1em, 10em;
-	font-family: 'Patua One', cursive;
+h3 {
+	font-variant: small-caps;
+	font-family: 'Arsenal', cursive;
 	color: #adadad;
-	font-size: 1.05em;
-	padding-bottom: 1em;
+	font-size: 1.25em;
+	padding-bottom: 2.25em;
 }
 
-ul {
-	list-style-type: none;
- }
- 
 a {
 	color: inherit;
 	text-decoration: none;
+}
+
+br {
+	line-height: 150%;
 }
  
 a:hover {
@@ -63,4 +61,5 @@ a:hover {
  
 body {
 	margin: auto;
+	background-image: url(sayagata-400px.png);
 }

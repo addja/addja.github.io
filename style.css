@@ -26,20 +26,20 @@
 
 h1 {
 	text-align: center;
-	font-family: 'Aref Ruqaa', serif;
+	font-family: monospace, serif;
 	font-size: 3.81em;
 	color: #333333;
 }
  
 h2 {
 	text-align: center;
-	font-family: 'Comfortaa', cursive;
+	font-family: monospace, cursive;
 	font-size: 1em;
 	color: #333333;
 }
  
 h3 {
-	font-family: 'Arsenal', cursive;
+	font-family: monospace, cursive;
 	color: #adadad;
 	font-size: 1.1em;
 	padding-bottom: 2.25em;
